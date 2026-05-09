@@ -13,3 +13,9 @@ def calculate_inertia(X_scaled):
     
     return list(k_values), inertias
         
+
+def train_kmeans(X_scaled, n_clusters=5):
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    labels = kmeans.fit_predict(X_scaled) #массив номеров кластеров
+
+    return labels
