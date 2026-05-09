@@ -1,6 +1,6 @@
 """Reporting helpers."""
 
-__all__ = ["print_basic_info"]
+# __all__ = ["print_basic_info"]
 
 
 def print_basic_info(df):

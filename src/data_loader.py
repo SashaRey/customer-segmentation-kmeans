@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-__all__ = ["load_data"]
+# __all__ = ["load_data"]
 
 
 def load_data(path: str) -> pd.DataFrame:
